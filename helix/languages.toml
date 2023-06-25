@@ -1,0 +1,9 @@
+[[language]]
+name = "javascript"
+formatter = { command = "deno", args = ["fmt", "-", "--ext", "js"] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+formatter = { command = "deno", args = ["fmt", "-", "--ext", "ts"] }
+auto-format = true
