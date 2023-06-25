@@ -7,3 +7,17 @@ auto-format = true
 name = "typescript"
 formatter = { command = "deno", args = ["fmt", "-", "--ext", "ts"] }
 auto-format = true
+
+[[language]]
+name = "json"
+formatter = { command = "deno", args = ["fmt", "-", "--ext", "json"] }
+auto-format = true
+
+[[language]]
+name = "markdown"
+formatter = { command = "deno", args = ["fmt", "-", "--ext", "md"] }
+auto-format = true
+
+[[language]]
+name = "lua"
+auto-format = true
