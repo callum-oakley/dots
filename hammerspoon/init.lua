@@ -1,7 +1,7 @@
 GRID_W = 12
 GRID_H = 12
 
-GRID_MARGIN = 4
+GRID_MARGIN = 0
 
 hs.application.enableSpotlightForNameSearches(true)
 hs.grid.setGrid(hs.geometry(nil, nil, GRID_W, GRID_H))
