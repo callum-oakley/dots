@@ -175,7 +175,7 @@ Bind({ "ctrl", "alt", "shift" }, "l", PressKey({ "alt", "shift" }, "right"))
 
 BindPR({ "alt" }, "[", function() PressSystemKey("SOUND_DOWN") end)
 BindPR({ "alt" }, "]", function() PressSystemKey("SOUND_UP") end)
-BindPR({ "alt" }, "p", function() PressSystemKey("PLAY") end)
+BindPR({ "alt" }, "'", function() PressSystemKey("PLAY") end)
 BindPR({ "alt" }, "t", function() OpenForSpace("kitty", "New OS Window") end)
 BindPR({ "alt" }, "b", function() OpenForSpace("Google Chrome", "New Window") end)
 BindPR({ "alt" }, "m", ToggleMaximizeWindow)
