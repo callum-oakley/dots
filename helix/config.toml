@@ -2,6 +2,7 @@ theme = "everforest_light"
 
 [editor]
 scroll-lines = 1
+scrolloff = 100
 
 [editor.cursor-shape]
 normal = "block"
@@ -13,6 +14,22 @@ hidden = false
 
 [keys.normal]
 esc = ["keep_primary_selection", "collapse_selection"]
+up = [
+  "move_visual_line_up",
+  "move_visual_line_up",
+  "move_visual_line_up",
+  "move_visual_line_up",
+  "move_visual_line_up",
+]
+down = [
+  "move_visual_line_down",
+  "move_visual_line_down",
+  "move_visual_line_down",
+  "move_visual_line_down",
+  "move_visual_line_down",
+]
+left = "goto_line_start"
+right = "goto_line_end"
 
 [keys.normal.space]
 c = ":buffer-close"
