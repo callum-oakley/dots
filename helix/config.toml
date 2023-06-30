@@ -31,6 +31,24 @@ down = [
 left = "goto_line_start"
 right = "goto_line_end"
 
+[keys.select]
+up = [
+  "extend_visual_line_up",
+  "extend_visual_line_up",
+  "extend_visual_line_up",
+  "extend_visual_line_up",
+  "extend_visual_line_up",
+]
+down = [
+  "extend_visual_line_down",
+  "extend_visual_line_down",
+  "extend_visual_line_down",
+  "extend_visual_line_down",
+  "extend_visual_line_down",
+]
+left = "extend_to_line_start"
+right = "extend_to_line_end"
+
 [keys.normal.space]
 c = ":buffer-close"
 q = ":quit-all"
