@@ -21,3 +21,8 @@ auto-format = true
 [[language]]
 name = "lua"
 auto-format = true
+
+[[language]]
+name = "python"
+formatter = { command = "black", args = ["--quiet", "-"] }
+auto-format = true
