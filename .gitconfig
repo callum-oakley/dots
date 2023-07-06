@@ -5,5 +5,8 @@
 [push]
 	autoSetupRemote = true
 
+[merge]
+	conflictStyle = zdiff3
+
 [submodule]
 	recurse = true
