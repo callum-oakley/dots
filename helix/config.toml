@@ -50,6 +50,6 @@ left = "extend_to_line_start"
 right = "extend_to_line_end"
 
 [keys.normal.space]
-c = ":buffer-close"
 q = ":quit-all"
 w = ":write-all"
+x = ":buffer-close"
