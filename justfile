@@ -3,7 +3,6 @@ link:
     mkdir -p ~/.config/kitty
     mkdir -p ~/.hammerspoon
     ln -sf "$(pwd)/.zshrc" ~/.zshrc
-    ln -sf "$(pwd)/.gitconfig" ~/.gitconfig
     ln -sf "$(pwd)/helix/config.toml" ~/.config/helix/config.toml
     ln -sf "$(pwd)/helix/languages.toml" ~/.config/helix/languages.toml
     ln -sf "$(pwd)/kitty/current-theme.conf" ~/.config/kitty/current-theme.conf
