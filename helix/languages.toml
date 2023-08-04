@@ -26,3 +26,8 @@ auto-format = true
 name = "python"
 formatter = { command = "black", args = ["--quiet", "-"] }
 auto-format = true
+
+[[language]]
+name = "go"
+auto-format = true
+formatter = { command = "goimports" }
