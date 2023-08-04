@@ -29,5 +29,10 @@ auto-format = true
 
 [[language]]
 name = "go"
-auto-format = true
 formatter = { command = "goimports" }
+language-server = { command = "gopls-gomodules-off" }
+[language.config]
+"build.expandWorkspaceToModule" = false
+"build.memoryMode" = "DegradeClosed"
+"build.directoryFilters" = ["-vendor", "-manifests"]
+"build.allowModfileModifications" = true
