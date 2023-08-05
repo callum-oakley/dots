@@ -26,13 +26,3 @@ auto-format = true
 name = "python"
 formatter = { command = "black", args = ["--quiet", "-"] }
 auto-format = true
-
-[[language]]
-name = "go"
-formatter = { command = "goimports" }
-language-server = { command = "gopls-gomodules-off" }
-[language.config]
-"build.expandWorkspaceToModule" = false
-"build.memoryMode" = "DegradeClosed"
-"build.directoryFilters" = ["-vendor", "-manifests"]
-"build.allowModfileModifications" = true
