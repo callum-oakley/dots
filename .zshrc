@@ -3,6 +3,7 @@ alias l='exa'
 
 export EDITOR='hx'
 export PROMPT=$'%F{red}\n%~ $ %f'
+export RUSTUP_TOOLCHAIN=stable
 
 HISTFILE="${HOME}/.zsh_history"
 HISTSIZE=1000000
