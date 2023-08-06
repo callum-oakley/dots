@@ -31,6 +31,12 @@ down = [
 left = "goto_line_start"
 right = "goto_line_end"
 
+[keys.normal.space]
+q = ":quit-all"
+w = ":write-all"
+x = ":buffer-close"
+z = ":reflow"
+
 [keys.select]
 up = [
   "extend_visual_line_up",
@@ -49,7 +55,7 @@ down = [
 left = "extend_to_line_start"
 right = "extend_to_line_end"
 
-[keys.normal.space]
+[keys.select.space]
 q = ":quit-all"
 w = ":write-all"
 x = ":buffer-close"
