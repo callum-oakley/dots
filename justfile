@@ -9,4 +9,4 @@ link:
     ln -sf "$(pwd)/hammerspoon/init.lua" ~/.hammerspoon/init.lua
 
 link-zshrc:
-    ln -sf "$(pwd)/helix/zshrc" ~/.zshrc
+    ln -sf "$(pwd)/zshrc" ~/.zshrc
