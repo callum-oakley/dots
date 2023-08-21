@@ -26,3 +26,14 @@ auto-format = true
 name = "python"
 formatter = { command = "black", args = ["--quiet", "-"] }
 auto-format = true
+
+[[language]]
+name = "starlark"
+scope = "source.starlark"
+injection-regex = "starlark"
+file-types = ["star"]
+comment-token = "#"
+indent = { tab-width = 4, unit = "    " }
+grammar = "python"
+formatter = { command = "black", args = ["--quiet", "-"] }
+auto-format = true
